@@ -99,3 +99,11 @@ NOTE: If are or will be using the css minify function in the theme use this impo
 .header-one #site-navigation-wrap, .navbar-style-one .dropdown-menu > li > a, .nav-custom-height.navbar-style-one .dropdown-menu .wcmenucart-toggle-dropdown, .theme-minimal-graphical .nav-custom-height.navbar-style-one .dropdown-menu .wcmenucart-toggle-dropdown, .theme-minimal-graphical .nav-custom-height.navbar-style-one .dropdown-menu .search-toggle-li{
 	height:73px !important;
 }
+.topSocial img{
+	max-width: 30px;
+	float: right;
+	margin: 5px;
+}
+hr{
+	margin: 0px;
+}

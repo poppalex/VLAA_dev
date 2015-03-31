@@ -49,8 +49,10 @@
 			 * Please have a look in functions/hooks/hooks-defaults.php to see the default
 			 * functions that are addeed to the header.
 			*/ ?>
-
-			
+			<div class="topSocial container">
+			<img src="/VLAA_dev/wp-content/uploads/2015/03/facebook292.png"><img src="/VLAA_dev/wp-content/uploads/2015/03/youtube7.png">
+			</div>
+			<hr>
 			<header id="site-header" class="<?php wpex_header_classes(); ?>" role="banner">
 			<div class="container clr">
 			<?php wp_nav_menu( array( 'theme_location' => 'upper-menu', 'container_class' => 'menu-header' ) ); ?>
