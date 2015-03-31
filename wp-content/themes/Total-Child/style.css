@@ -1,0 +1,101 @@
+/*
+Theme Name: Total Child
+Theme URI: http://totalwptheme.com
+Description: Total WordPress theme example child theme.
+Author: AJ Clarke
+Author URI: http://totalwptheme.com
+Template: Total
+Version: 1.0
+*/
+
+@import url("../Total/style.css");
+
+/**
+NOTE: If are or will be using the css minify function in the theme use this import instead of the one above
+@import url("../Total/style-min.css");
+**/
+
+.menu-header {
+    display: block;
+    float: right;
+    margin: 0 auto;
+    width: 100%;
+    height: 42px;
+}
+.menu-header a{
+	color: black;
+	text-decoration: none !important;
+}
+.menu-header ul,
+    div.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+.menu-header li,
+    div.menu li {
+    float: right;
+    position: relative;
+}
+.menu-header li,
+    div.menu li {
+    float: right;
+    position: relative;
+}
+.menu-header li{
+	margin: 2px;
+}
+.menu-header ul ul {
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    float: left;
+    width: 180px;
+    z-index: 99999;
+}
+.menu-header a {
+    display: block;
+    line-height: 41px;
+    padding: 0 10px;
+    text-decoration: none;
+    font-weight: normal;
+}
+.menu-header ul li:hover > ul {
+    display: block;
+}
+.menu-header li:hover > a,
+.menu-header ul ul :hover > a {
+
+}
+.menu-header ul ul a {
+    line-height: 1em;
+    padding: 10px;
+    width: 160px;
+    height: auto;
+}
+.menu-header {
+    display: block;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    height: 42px;
+}
+
+/*Upper Nav Customization*/
+#menu-item-36, #menu-item-37{
+	background:#D2D7D3;
+}
+#menu-item-36 ul{
+    background: #D2D7D3;
+}
+#menu-item-45{
+	background: #D24D57;
+}
+#menu-item-44{
+	background: #1E824C;
+}
+.header-one #site-navigation-wrap, .navbar-style-one .dropdown-menu > li > a, .nav-custom-height.navbar-style-one .dropdown-menu .wcmenucart-toggle-dropdown, .theme-minimal-graphical .nav-custom-height.navbar-style-one .dropdown-menu .wcmenucart-toggle-dropdown, .theme-minimal-graphical .nav-custom-height.navbar-style-one .dropdown-menu .search-toggle-li{
+	height:73px !important;
+}
