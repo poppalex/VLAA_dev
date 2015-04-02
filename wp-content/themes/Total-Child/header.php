@@ -50,19 +50,21 @@
 			 * functions that are addeed to the header.
 			*/ ?>
 			<div class="topSocial container">
-			<img src="/VLAA_dev/wp-content/uploads/2015/03/facebook292.png"><img src="/VLAA_dev/wp-content/uploads/2015/03/youtube7.png">
+			<img src="/VLAA_dev/wp-content/uploads/2015/03/youtube7.png"><img src="/VLAA_dev/wp-content/uploads/2015/03/facebook292.png">
 			</div>
 			<hr>
 			<header id="site-header" class="<?php wpex_header_classes(); ?>" role="banner">
-			<div class="container clr">
-			<?php wp_nav_menu( array( 'theme_location' => 'upper-menu', 'container_class' => 'menu-header' ) ); ?>
-			</div>
 				<?php wpex_hook_header_top(); ?>	
 				<div id="site-header-inner" class="container">
 					<?php wpex_hook_header_inner(); ?>
+
 				</div><!-- #site-header-inner -->
+				<div class="container clr"><p style="font-size:10px; margin-bottom:0px;">Serving the St. Louis Bi-state Region</p></div>
+				<hr style="margin-bottom:10px;">
 				<?php wpex_hook_header_bottom(); ?>
+
 			</header><!-- #header -->
+
 			<?php
 			// After header hook
 			wpex_hook_header_after();
