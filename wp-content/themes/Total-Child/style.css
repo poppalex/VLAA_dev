@@ -37,18 +37,18 @@ hr{
 	line-height: 70px !important;
 }
 #menu-item-53{
-	background: #B0282F;
+	background: #9BAA4C;
 }
 #menu-item-53 a{
 	color: white;
 }
 #menu-item-53 ul a{
-	background: #B0282F;
+	background: #9BAA4C;
 	color: white;
 	border: none;
 }
 #menu-item-54{
-	background: #9BAA4C;
+	background: #B0282F;
 }
 #menu-item-54 a{
 	color: white;
@@ -97,4 +97,33 @@ hr{
 	background: #9BAA4C;
 	color: white;
 	border: none;
+}
+.parternsFooter img{
+	white-space: nowrap;
+	max-width: 100px;
+}
+.partnertsFooter2 img{
+	max-width: 200px;
+	display: block;
+}
+.arrows ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+.arrows li:before{
+	content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 1.3em;
+    position: relative;
+}
+.page-id-152 .page-header{
+	background-image: url('http://localhost:8888/VLAA_dev/wp-content/uploads/2015/03/6546842.jpg');
+	background-size: cover;
 }

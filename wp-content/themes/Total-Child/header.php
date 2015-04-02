@@ -50,7 +50,7 @@
 			 * functions that are addeed to the header.
 			*/ ?>
 			<div class="topSocial container">
-			<img src="/VLAA_dev/wp-content/uploads/2015/03/youtube7.png"><img src="/VLAA_dev/wp-content/uploads/2015/03/facebook292.png">
+			<img src="/VLAA_dev/wp-content/uploads/2015/03/youtube7.png"><a href="https://www.facebook.com/pages/St-Louis-Volunteer-Lawyers-and-Accountants-for-the-Arts/119114161655" target="_blank"><img src="/VLAA_dev/wp-content/uploads/2015/03/facebook292.png"></a>
 			</div>
 			<hr>
 			<header id="site-header" class="<?php wpex_header_classes(); ?>" role="banner">
